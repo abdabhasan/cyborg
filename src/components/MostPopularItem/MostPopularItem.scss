@@ -1,0 +1,38 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Borders", "../../variables/Fonts";
+
+.most-popular-item {
+  flex: 1 calc(25% - 20px);
+  background-color: $bg-dark;
+  padding: $primary-padding $primary-padding/2;
+  margin: $primary-margin / 2;
+  border-radius: $primary-br;
+  text-transform: capitalize;
+}
+.card {
+  background-color: $bg-dark;
+  border-radius: $primary-br;
+  border: none;
+  img {
+    border-radius: $primary-br;
+    width: 100%;
+  }
+  .card-content {
+    margin-top: $primary-margin;
+    padding: $primary-padding / 4;
+    display: flex;
+    justify-content: space-between;
+    .card-title {
+      font-weight: $fw-bold;
+      margin: 0 !important;
+    }
+    .card-category {
+      color: $color-dark;
+    }
+    .rate,
+    .download {
+      font-size: 12px;
+      text-align: end;
+    }
+  }
+}

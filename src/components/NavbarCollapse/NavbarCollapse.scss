@@ -1,0 +1,6 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Borders";
+.profile {
+  background-color: $bg-darkest;
+  border-radius: $secondary-br;
+}

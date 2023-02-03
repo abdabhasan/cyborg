@@ -1,0 +1,7 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Borders", "../../variables/Fonts";
+
+.most-popular-items {
+  padding: $primary-padding;
+  border-radius: $primary-br;
+}

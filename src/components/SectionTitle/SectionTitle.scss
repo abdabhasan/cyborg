@@ -1,0 +1,15 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Borders", "../../variables/Fonts";
+
+.section-title {
+  padding: $primary-padding;
+  font-weight: $fw-bold;
+  text-transform: capitalize;
+  .first-part-of-title {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .second-part-of-title {
+    color: $primary-color;
+  }
+}

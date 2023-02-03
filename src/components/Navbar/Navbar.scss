@@ -1,0 +1,29 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Transitions", "../../variables/Sizes";
+
+.custom-nav {
+  background-color: $bg-darkest;
+  padding-top: $nav-padding * 2;
+  padding-bottom: $nav-padding;
+
+  .custom-nav-link {
+    color: $color-dark;
+    transition: $primary-transition;
+    &:hover {
+      color: $color-hovered;
+    }
+    &.profile {
+      img {
+        max-width: $profile-img-width;
+      }
+      &:hover {
+        color: $color-light;
+        background-color: $bg-color-hovered;
+      }
+    }
+  }
+
+  .custom-nav-link.active {
+    color: $color-hovered;
+  }
+}

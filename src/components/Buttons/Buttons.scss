@@ -1,0 +1,20 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Borders", "../../variables/Fonts",
+  "../../variables/Transitions";
+
+.custom-btn {
+  background-color: $bg-color-hovered;
+  border-radius: $button-br;
+  transition: $primary-transition;
+  text-transform: capitalize;
+  a {
+    color: $color-light;
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: $bg-color-light;
+    a {
+      color: $color-hovered;
+    }
+  }
+}

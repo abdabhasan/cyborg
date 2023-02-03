@@ -1,0 +1,24 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Transitions", "../../variables/Fonts",
+  "../../variables/Borders";
+
+.main-container {
+  background-image: url(../../assets/images/banner-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: $secondary-br;
+
+  .sub-title {
+    font-weight: $fw-light;
+    padding-top: $sub-title-pt;
+    padding-bottom: $sub-title-pb;
+  }
+  .main-title {
+    font-weight: $fw-bold;
+    line-height: $title-lh;
+    span {
+      color: $color-hovered;
+    }
+  }
+}

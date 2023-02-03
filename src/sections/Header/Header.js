@@ -1,0 +1,10 @@
+import "./Header.scss";
+const Header = (props) => {
+  return (
+    <>
+      <div>{props.children}</div>
+    </>
+  );
+};
+
+export default Header;

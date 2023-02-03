@@ -1,0 +1,20 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Borders";
+.custom-search-bar {
+  min-width: 335px;
+  input {
+    border: none;
+    border-radius: $secondary-br;
+    background-color: $bg-dark;
+    height: $search-bar-height;
+    &:focus {
+      border: 1px solid $color-light;
+    }
+  }
+}
+
+@media (min-width: 991px) {
+  .custom-search-bar {
+    display: block !important;
+  }
+}

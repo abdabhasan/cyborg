@@ -1,0 +1,17 @@
+@import "../../variables/Colors", "../../variables/Spacing",
+  "../../variables/Borders", "../../variables/Fonts";
+.section {
+  padding-top: $primary-padding;
+  margin-top: $primary-margin * 2;
+
+  background-color: $bg-darkest;
+  border-radius: $primary-br;
+  position: relative;
+  padding-bottom: $primary-padding * 2;
+  button {
+    position: absolute !important;
+    margin: 0 !important;
+    right: 50% !important;
+    transform: translate(50%, calc($primary-padding - 4px));
+  }
+}
